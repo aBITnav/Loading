@@ -1,0 +1,88 @@
+body{
+	
+	animation: a 8s linear infinite;
+	}
+#cup{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 17%;
+	height: 45%;
+    border: solid 5px #fff;
+	border-radius: 19px;
+	padding: 2px;
+	margin: 2px;
+	background: url(p.gif);
+	border-top: transparent;
+	border-top-right-radius:5px;
+	border-top-left-radius: 5px;
+	animation: up 8s linear infinite;
+	
+}	
+@keyframes a
+{
+	0%{
+		background: cyan;}
+	20%{
+		background: #100;
+	}
+	40%{
+		background:#303;
+	}
+	50%{
+		background: #010;
+	}
+     60%{
+		background: #077;
+	}
+	75%{
+		background: #fff;
+	}
+	85%{
+		background:#00a;
+	}
+	
+}
+@keyframes up{
+	0%{
+		background-position: center 900%;
+		background-repeat: no-repeat;
+	}
+	10%{
+		background-position:center 800% ;
+		background-repeat: no-repeat;
+	}
+	20%{
+		background-position:center 700% ;
+		background-repeat: no-repeat;
+	}
+	30%{
+		background-position:center 600% ;
+		background-repeat: no-repeat;
+	}
+	40%{
+		background-position:center 500% ;
+		background-repeat: no-repeat;
+	}
+	50%{
+		background-position:center 400% ;
+		background-repeat: no-repeat;
+	}
+	60%{
+		background-position:center 300% ;
+		background-repeat: no-repeat;
+	}
+	70%{
+		background-position:center 200% ;
+		background-repeat: no-repeat;
+	}
+	80%{
+		background-position: center 100% ;
+		background-repeat: no-repeat;
+	}
+	100%{
+		background-position: center 50% ;
+		background-repeat: no-repeat;
+	}
+}
